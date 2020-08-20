@@ -1,0 +1,38 @@
+body {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(34, 34, 35);
+}
+
+header {
+    background-color: lightseagreen;
+}
+
+h1 {
+    background-color: magenta;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h2 {
+    background-color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+p   {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-color-red {
+    color: red;
+}
+
+#red {
+    font-family: monospace;
+}
+
+#notRed {
+    background-color: tomato;
+}
