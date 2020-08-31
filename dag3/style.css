@@ -1,0 +1,72 @@
+html, body {
+    margin: 0px;
+    border: 0px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/* Header 100% width */
+header {
+    background-color: tomato;
+}
+
+/* Our flex container with 700px width */
+.header-container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin: auto; 
+}
+
+.logo a {
+    font-weight: 800;
+    font-size: 32px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+    padding-left: 8px;
+}
+/* When you hover mouse over something, do something */
+.logo a:hover {
+    color: #00b6ba;
+}
+
+nav {
+    padding: 25px;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    display: flex;
+}
+
+main {
+    padding: 8px;
+    width: 60%;
+}
+
+aside {
+    padding: 8px;
+    width: 40%;
+}
+
+article img {
+    width: 100%;
+}
+
+.terminal {
+    background-color: #00B6BA;
+}
+
+footer {
+    background-color: tomato;
+    padding: 25px;
+    text-align: center;
+}
+
