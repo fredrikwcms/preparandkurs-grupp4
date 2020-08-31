@@ -1,0 +1,70 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* End of basic styles */
+
+header {
+    background-color: lightseagreen;
+}
+
+header h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* End of header styles */
+
+/* Start main content styles */
+
+.container {
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+
+main {
+    width: 60%;
+}
+
+aside {
+    width: 40%;
+}
+
+/* End main content styles */
+
+/* Start footer styles */
+
+footer {
+    background-color: lightseagreen;
+}
+
+a {
+    text-decoration: strik;
+}
+
+.links {
+    color: yellow;
+}
+
+#link2 {
+    color: red;
+}
+
+.bg-red {
+    background-color: red;
+}
